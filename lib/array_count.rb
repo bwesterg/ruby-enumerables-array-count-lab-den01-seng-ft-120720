@@ -13,7 +13,7 @@ def count_empty_strings(array)
   #array.count {|element| friend.counter >= 5 }
   
    array.count do |element|
-    element = ""
+    element == ""
   end
     
 end
